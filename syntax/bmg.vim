@@ -1,7 +1,7 @@
 " Vim syntax file
 " Language: Basement Configuration
 " Maintainer: Michel Kuhlmann
-" Last Change: Tuesday, 2012-01-17
+" Last Change: Monday, 2012-02-27
 
 if exists("b:current_syntax")
   finish
@@ -29,7 +29,7 @@ syn match rCurlyError "[)\]]" contained
 "--------------------------------------------------------------------------------
 " Keywords
 syn keyword BmgKeywords CROSS_SECTION
-syn keyword BmgAttr active_range bottom_range distance_coord friction_coefficients friction_ranges interpolation_fixpoints left_point_global_coords name node_coords orientation_angle reference_height 
+syn keyword BmgAttr active_range bottom_range distance_coord friction_coefficients friction_ranges interpolation_fixpoints left_point_global_coords name node_coords orientation_angle reference_height main_channel_range
 
 syn match BmcComment '//.*'
 
