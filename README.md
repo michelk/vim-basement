@@ -1,9 +1,8 @@
 # vim-basement -- Syntax highlighting bmc and bmg-files
 
 
-Syntax highlighting for the [BASEMENT][basement] in `vim`.
+Syntax highlighting for [BASEMENT](http://www.basement.ethz.ch) in `vim`.
 
-[basement](http://www.basement.ethz.ch)
 
 ## Installation
 
