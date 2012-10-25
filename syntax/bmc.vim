@@ -3,15 +3,14 @@
 " Maintainer: Michel Kuhlmann
 " Last Change: Thursday, 2012-10-25
 
-if exists("b:current_syntax")
-  finish
+if exists("b:current_syntax") finish
 endif
 
 "--------------------------------------------------------------------------------
 " Folding
 "--------------------------------------------------------------------------------
 let bmc_syntax_folding = 1
-if exists("g:r_syntax_folding")
+if exists("g:pst_syntax_folding")
   setlocal foldmethod=syntax
 endif
 if exists("g:bmc_syntax_folding")
